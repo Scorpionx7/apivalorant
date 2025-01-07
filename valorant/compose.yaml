@@ -1,0 +1,11 @@
+services:
+  spring-app:
+    build:
+      context: .
+    container_name: spring-app
+    ports:
+      - "8080:8080" # Porta da aplicação Spring Boot
+    environment:
+      SPRING_PROFILES_ACTIVE: test
+    volumes:
+      - ./logs:/app/logs # Exemplo de diretório para logs, opcional
