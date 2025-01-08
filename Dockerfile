@@ -1,14 +1,27 @@
-# Usando a imagem base do OpenJDK
-FROM openjdk:21-jdk-slim
+# Use Maven to build the application
+FROM maven:3.9.8-eclipse-temurin-21 AS build
 
-# Define o diretório de trabalho dentro do contêiner
+# Set the working directory for the build
 WORKDIR /app
 
-# Copia o arquivo JAR gerado para o contêiner
-COPY target/valorant-*.jar app.jar
+# Copy the Maven project files
+COPY pom.xml .
+COPY src ./src
 
-# Expõe a porta padrão do Spring Boot
-EXPOSE 8080
+# Build the application
+RUN mvn clean package
 
-# Comando para executar o JAR
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Use a minimal Java runtime for the final image
+FROM openjdk:21-jdk-slim
+
+# Add a volume to hold the application data
+VOLUME /tmp
+
+# The application's jar file
+ARG JAR_FILE=target/valorant-0.0.1-SNAPSHOT.jar
+
+# Copy the jar file from the build stage to the final image
+COPY --from=build /app/${JAR_FILE} app.jar
+
+# Run the jar file
+ENTRYPOINT ["java","-jar","/app.jar"]

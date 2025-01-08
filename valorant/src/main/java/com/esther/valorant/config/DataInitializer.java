@@ -8,9 +8,11 @@ import com.esther.valorant.repository.AgenteRepository;
 import com.esther.valorant.repository.MapaRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
+@Configuration
 public class DataInitializer {
 
     @Autowired

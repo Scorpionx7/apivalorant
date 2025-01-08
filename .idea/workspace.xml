@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5a6fb-ceb6-4419-9eb4-ae40b7807da9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/entities/Mapa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/repository/HabilidadesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/repository/MapaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/config/DataInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/entities/Agente.java" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/entities/Agente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valorant/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valorant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valorant/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/valorant/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ValorantApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TI-02/Documents/Esther/apivalorant&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ValorantApplication.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ValorantApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rezen/Downloads/apivalorant",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.ValorantApplication">
     <configuration name="ValorantApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.esther.valorant.ValorantApplication" />
       <module name="valorant" />
@@ -65,11 +70,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValorantApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="valorant" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.esther.valorant.ValorantApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ValorantApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +105,7 @@
       <workItem from="1736282795678" duration="46000" />
       <workItem from="1736282844748" duration="48000" />
       <workItem from="1736282899266" duration="9000" />
+      <workItem from="1736360791585" duration="3457000" />
     </task>
     <servers />
   </component>
