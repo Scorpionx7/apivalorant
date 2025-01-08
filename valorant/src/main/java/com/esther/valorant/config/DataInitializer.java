@@ -2,8 +2,10 @@ package com.esther.valorant.config;
 
 import com.esther.valorant.entities.Agente;
 import com.esther.valorant.entities.Habilidades;
+import com.esther.valorant.entities.Mapa;
 import com.esther.valorant.entities.enums.Tecla;
 import com.esther.valorant.repository.AgenteRepository;
+import com.esther.valorant.repository.MapaRepository;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -14,9 +16,14 @@ public class DataInitializer {
     @Autowired
     private AgenteRepository agenteRepository;
 
+    @Autowired
+    private MapaRepository mapaRepository;
+
     @PostConstruct
     public void inicializarDados(){
         if(agenteRepository.count() ==0){
+
+            // AGENTES
 
             // 1. Jett
             Agente jett = new Agente();
@@ -117,10 +124,23 @@ public class DataInitializer {
             killjoy.setHabilidades(List.of(killjoyX, killjoyC, killjoyE, killjoyQ));
             agenteRepository.save(killjoy);
 
-            
 
+            // MAPAS
 
+            Mapa bind = new Mapa();
+            bind.setNome("Bind");
+            bind.setDescricao("Mapa com teleportadores únicos");
+            mapaRepository.save(bind);
 
+            Mapa haven = new Mapa();
+            haven.setNome("Haven");
+            haven.setDescricao("Mapa com três sites.");
+            mapaRepository.save(haven);
+
+            Mapa ascent = new Mapa();
+            ascent.setNome("Ascent");
+            ascent.setDescricao("Mapa com portas rotatórias.");
+            mapaRepository.save(ascent);
 
 
         }

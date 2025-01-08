@@ -21,6 +21,15 @@ public class Agente {
     @OneToMany(mappedBy = "agente", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Habilidades> habilidades = new ArrayList<>();
 
+    @ManyToMany
+    @JoinTable(
+            name = "agente_mapa",
+            joinColumns = @JoinColumn(name = "agente_id"),
+            inverseJoinColumns = @JoinColumn(name = "mapa_id")
+    )
+
+    private List<Mapa> mapas = new ArrayList<>();
+
     public void inicializarHabilidades(){
         for(Tecla tecla : Tecla.values()){
             Habilidades habilidade = new Habilidades();
@@ -77,5 +86,13 @@ public class Agente {
 
     public void setHabilidades(List<Habilidades> habilidades) {
         this.habilidades = habilidades;
+    }
+
+    public List<Mapa> getMapas() {
+        return mapas;
+    }
+
+    public void setMapas(List<Mapa> mapas) {
+        this.mapas = mapas;
     }
 }
