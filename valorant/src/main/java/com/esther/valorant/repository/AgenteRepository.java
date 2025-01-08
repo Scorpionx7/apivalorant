@@ -7,11 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface AgenteRepository extends JpaRepository {
+public interface AgenteRepository extends JpaRepository<Agente, Long> {
 
     List<Agente> findByFuncao(String funcao);
-
-
-
-
 }
