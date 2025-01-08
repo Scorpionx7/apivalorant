@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb5a6fb-ceb6-4419-9eb4-ae40b7807da9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ValorantApplication.executor": "Debug",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.ValorantApplication.executor": "Run",
     "git-widget-placeholder": "main",
@@ -105,7 +104,7 @@
       <workItem from="1736282795678" duration="46000" />
       <workItem from="1736282844748" duration="48000" />
       <workItem from="1736282899266" duration="9000" />
-      <workItem from="1736360791585" duration="3457000" />
+      <workItem from="1736360791585" duration="3884000" />
     </task>
     <servers />
   </component>
