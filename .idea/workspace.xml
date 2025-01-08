@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ddb5a6fb-ceb6-4419-9eb4-ae40b7807da9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/repository/AgenteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/repository/AgenteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/service/AgenteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/service/AgenteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/config/DataInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/valorant/src/main/java/com/esther/valorant/config/DataInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +26,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.ValorantApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValorantApplication.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rezen/Documents/apivalorant&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TI-02/Documents/Esther/apivalorant&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
