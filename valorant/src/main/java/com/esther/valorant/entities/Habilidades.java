@@ -6,6 +6,11 @@ import jakarta.persistence.*;
 @Entity
 public class Habilidades {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+
     private String nome;
     private String descricao;
 
@@ -58,5 +63,13 @@ public class Habilidades {
 
     public void setAgente(Agente agente) {
         this.agente = agente;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

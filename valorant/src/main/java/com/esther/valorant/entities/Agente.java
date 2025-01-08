@@ -10,6 +10,10 @@ import java.util.List;
 @Entity
 public class Agente {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
     private String name;
     private String nacionalidade;
     private String funcao;
@@ -57,5 +61,21 @@ public class Agente {
 
     public void setFuncao(String funcao) {
         this.funcao = funcao;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public List<Habilidades> getHabilidades() {
+        return habilidades;
+    }
+
+    public void setHabilidades(List<Habilidades> habilidades) {
+        this.habilidades = habilidades;
     }
 }
