@@ -115,12 +115,3 @@ Fique ligado! Essa funcionalidade será implementada em breve! 🚀
 - **LinkedIn**: [Esther Rezende](https://www.linkedin.com/in/estherrezende/)
 - **E-mail**: [rezendealvesesther@gmail.com](mailto:rezendealvesesther@gmail.com)
 
----
-
-## 📝 **Licença**
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo como quiser. 😊
-
----
-
-Criado com ❤️ por entusiastas de Valorant!
-
