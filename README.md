@@ -20,10 +20,9 @@ O **Valorant API** é um sistema desenvolvido em **Java** com **Spring Boot** qu
 1. **Agentes do Valorant**:
     - Lista de todos os agentes disponíveis.
     - Detalhes de cada agente, como habilidades e nacionalidade.
-    - Informações sobre os mapas em que o agente é mais utilizado.
 
 2. **Mapas**:
-    - Lista de mapas com descrição e associação a agentes.
+    - Lista de mapas com descrição.
 
 3. **Backend Dinâmico**:
     - Endpoints RESTful para listar agentes, buscar detalhes e consultar mapas.
@@ -37,7 +36,7 @@ O **Valorant API** é um sistema desenvolvido em **Java** com **Spring Boot** qu
 - **Spring Boot**
 - **MySQL**
 - **Hibernate**
-- **Docker** + **Docker Compose**
+- **Docker** 
 - **Postman** para testes de API
 
 ---
@@ -46,7 +45,7 @@ O **Valorant API** é um sistema desenvolvido em **Java** com **Spring Boot** qu
 
 ### Pré-requisitos
 - **Java 21+**
-- **Docker** e **Docker Compose** instalados
+- **Docker**
 - **MySQL Workbench** (opcional para testes locais)
 
 ### Rodando Localmente
@@ -87,7 +86,6 @@ O **Valorant API** é um sistema desenvolvido em **Java** com **Spring Boot** qu
 
 ### Mapas
 - **Listar todos os mapas**: `GET /api/mapas`
-- **Buscar agentes associados a um mapa**: `GET /api/mapas/{id}/agentes`
 
 ---
 
